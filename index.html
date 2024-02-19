@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/globalStyle.css">
+    <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="./src/styles/button.css">
+
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Criando rede social</title>
+
+    
+  </head>
+
+
+  <body>
+    <header>
+      <div class="container container-header">
+
+        <img class="header-img" src="./src/assets/img/logo.svg" alt="Logo TechPosters">
+        <button class="header-bttn">Sair</button>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="primary__container">
+        <div class="profile-wraper">
+          <div class="profile__container">
+            <div class="profile-group">
+              <img class="profile-pic" src="./src/assets/img/user1.svg" alt="Foto de Perfil">
+              
+              <div class="text-group">
+                <h2 class="title-profile">Samuel Leão</h2>
+                <p class="text-profile">Front end Engineer</p>
+              </div>
+
+            </div>
+  
+            <article>
+              <input class="input-title" type="text" placeholder="Digital título do post">
+              <input class="input-description" type="text" placeholder="Digitar descrição do post">
+              <button class="article__bttn">Postar</button>
+            </article>
+          </div>
+  
+  
+          <aside>
+            <div class="suggest-group">
+              <h2 class="suggest-title">Sugestões para você seguir</h2>
+              <div class="suggest__container">
+                
+              </div>
+            </div>
+          </aside>
+        </div>
+        
+
+        <div class="posts__container">
+          <h1 class="posts__title">Posts</h1>
+          
+          <div class="posts__content">
+
+          
+          </div>
+          
+            
+        </div>
+      </section>
+    </main>
+    <dialog class="modal__container"></dialog>
+    <script type="module" src="./src/scripts/index.js" defer></script>
+  </body>
+</html>
