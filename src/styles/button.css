@@ -1,0 +1,120 @@
+.header-bttn{
+    padding: 0px;
+    gap: 20px;    
+    background-color: var(--gray-1);
+    color: var(--white-fixed);
+    width: 26px;
+    height: 16px;
+    font-family: var(--font-family);
+    font-size: var(--font-size2);
+    border-radius: var(--bttn-radius);
+    cursor: pointer;
+}
+
+.header-bttn:hover{
+    background-color: var(--gray-0);
+}
+
+.article__bttn{
+    width: 69px;
+    height: 38px;
+    border: 2px solid var(--gray-4);
+    border-radius: 4px;
+    background-color: var(--gray-4);
+    font-size: var(--font-size2);
+    font-family: var(--font-family);
+    font-weight: var(--font-weigth-text);
+    color: var(--gray-3);
+    cursor: pointer;
+}
+
+
+.bttn-profile{
+    width: 68px;
+    height: 28px;
+    font-size: var(--font-size2);
+    font-family: var(--font-family);
+    font-weight: var(--font-weigth-title2);
+    color: var(--gray-1);
+    border: 1px solid var(--gray-0);
+    cursor: pointer;
+}
+
+.bttn-profile:hover{
+    color: var(--brand-1);
+    border: 1px solid var(--brand-1);
+}
+
+.bttn-profile--active{
+    width: 89px;
+    height: 28px;  
+    background-color: var(--brand-1);
+    font-size: var(--font-size2);
+    font-family: var(--font-family);
+    font-weight: var(--font-weigth-title2);
+    color: var(--white-fixed);
+    cursor: pointer;
+}
+
+.modal__bttn{
+    padding: 0px 12px;
+    gap: 10px;  
+    width: 92px;
+    height: 38px;
+    background-color: var(--gray-1);
+    color: var(--white-fixed);
+    font-size: var(--font-size2);
+    font-weight: var(--font-weigth-title2);
+    cursor: pointer;
+}
+
+.modal__bttn:hover{
+    background-color: var(--gray-0);
+}
+
+.like-bttn{
+    cursor: pointer;
+    background-image: url('./../assets/img/Vector.svg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+
+.like-bttn-active{
+    cursor: pointer;
+    background-image: url('./../assets/img/VectorLike.svg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+
+.close-bttn{
+    position: absolute;
+    width: 13px;
+    right: 14.5px;
+    top: 18px;
+    font-family: 'Nunito';   
+    color: var(--gray-3);
+    font-size: var(--font-size-title1);
+    font-weight: var(--font-weigth-text);
+    cursor: pointer;
+}
+
+@media (min-width: 1024px){
+    .article__bttn{
+        width: 69px;
+        height: 38px;
+        border: 2px solid var(--gray-4);
+        border-radius: 4px;
+        background-color: var(--brand-1);
+        font-size: var(--font-size2);
+        font-family: var(--font-family);
+        font-weight: var(--font-weigth-text);
+        color: var(--white-fixed);
+        cursor: pointer;
+    }
+}

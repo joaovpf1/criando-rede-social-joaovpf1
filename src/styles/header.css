@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 10px;
+
+    position: fixed;
+    width: 100vw;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+
+    background-color: var(--gray-1);
+}
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 10px;
+}
